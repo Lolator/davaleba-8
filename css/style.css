@@ -98,11 +98,14 @@
 
 .card > img {
   margin-bottom: 20px;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .card-body > h3 {
   font-size: 18px;
   margin-bottom: 8px;
+  cursor: pointer;
 }
 
 .card-body > p {
@@ -110,3 +113,10 @@
   font-size: 16px;
   margin-bottom: 20px;
 }
+
+.card-body > h3:hover {
+    color: rgb(38, 0, 255);
+}
+
+
+
